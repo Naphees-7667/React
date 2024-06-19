@@ -6,11 +6,17 @@ function App() {
   let [counterValue,setCounter] = useState(0);
 
   let IncFun = () => {
-    setCounter(counterValue+1)
+    if(counterValue < 20){
+      setCounter(counterValue+1)
+    }
+    else return
   }
 
   let DecFun = () => {
-    setCounter(counterValue-1)
+    if(counterValue > 0){
+      setCounter(counterValue-1)
+    }
+    else return
   }
 
   return (
