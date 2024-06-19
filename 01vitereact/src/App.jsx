@@ -1,6 +1,10 @@
+import Naphees from './script.jsx'
 function App() {
   return (
-    <h1>Chai Aur React | Naphees </h1>
+    <>
+      <Naphees />
+      <h1>Chai Aur React | Naphees </h1>
+    </>
   )
 }
 
