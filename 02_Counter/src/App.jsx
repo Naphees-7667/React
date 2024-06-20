@@ -21,9 +21,9 @@ function App() {
 
   return (
     <>
-    <button onClick={IncFun}>Increase Counter</button>
+    <button type="button" class="btn btn-success" onClick={IncFun}>Increase Counter</button>
     <h1>Counter = {counterValue}</h1>
-    <button onClick={DecFun}>Decrease Counter</button>
+    <button type="button" class="btn btn-info" onClick={DecFun}>Decrease Counter</button>
     </>
   )
   
