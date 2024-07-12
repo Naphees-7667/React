@@ -1,0 +1,21 @@
+.heading{
+    font-weight: 700;
+    font-size: 45px;
+    margin: 10px 10px 20px;
+}
+
+input {
+    width: 100%;
+}
+
+.items-container{
+    text-align: left;
+}
+
+.row-margin{
+    margin: 20px;
+}
+
+.todo-btn{
+    min-width: 100%;
+}
