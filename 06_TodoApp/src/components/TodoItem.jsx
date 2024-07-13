@@ -1,19 +1,21 @@
-function AddTodo() {
+// import ItemsContainer from "./ItemsContainer";
+
+function TodoItem({todoName,todoDate}) {
     return (
         <div className="container">
             <div className="row row-margin">
                 <div className="col-6">
-                    <input type="text" placeholder="Enter Todo Here" />
+                    {todoName}
                 </div>
                 <div className="col-4">
-                    <input type="date"></input>
+                    {todoDate}
                 </div>
                 <div className="col-2">
-                    <button type="button" className="btn btn-success todo-btn">Add</button>
+                    <button type="button" className="btn btn-danger todo-btn">Remove</button>
                 </div>
             </div>
         </div>
     )
 }
 
-export default AddTodo;
+export default TodoItem;
