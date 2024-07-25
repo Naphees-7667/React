@@ -1,4 +1,4 @@
-import { CiSquareRemove } from "react-icons/ci";
+import { MdOutlineBookmarkRemove } from "react-icons/md";
 
 function TodoItem({ passvalue, handleRemove }) {
   return (
@@ -12,7 +12,7 @@ function TodoItem({ passvalue, handleRemove }) {
             className="btn btn-danger todo-btn"
             onClick={handleRemove}
           >
-            <CiSquareRemove />
+            <MdOutlineBookmarkRemove />
           </button>
         </div>
       </div>
@@ -20,4 +20,4 @@ function TodoItem({ passvalue, handleRemove }) {
   );
 }
 
-export default TodoItem;
+export default TodoItem; 
